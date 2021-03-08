@@ -1,10 +1,10 @@
 const can1 = document.querySelector('.canvas1'); //fish,dust,circle
 const can2 = document.querySelector('.canvas2'); //bg,fruit,ane
-const can0 = document.querySelector('.canvas0');
+
 
 let ctx1;
 let ctx2;
-let ctx0;
+
 
 let canWidth;
 let canHeight;
@@ -63,7 +63,7 @@ function game() {
 function init() {
     ctx1 = can1.getContext("2d");
     ctx2 = can2.getContext("2d");
-    ctx0 = can0.getContext("2d");
+
 
 
 
